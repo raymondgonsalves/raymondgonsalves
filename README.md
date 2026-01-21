@@ -7,7 +7,7 @@ MY work sits squarely at the intersection of SOC operations, security architectu
 
 ## 🤖 Agentic Ai
 
-- **[Defending and Agentic AI Agent](https://github.com/raymondgonsalves/Defending_Agentic_AI)**
+- **[Defending Agentic AI Agent](https://github.com/raymondgonsalves/Defending_Agentic_AI)**
 
 
 <hr/>
