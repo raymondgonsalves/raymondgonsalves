@@ -5,7 +5,7 @@ Hello, and thank you for visiting my GitHub portfolio! Here, you'll find a colle
 
 MY work sits squarely at the intersection of SOC operations, security architecture, and AI security — and it reflects where many security roles are headed as AI becomes embedded in production workflows.
 
-## ⚠️ Agentic Ai
+## 🤖 Agentic Ai
 
 - **[Defending and Agentic AI Agent](https://github.com/raymondgonsalves/Defending_Agentic_AI)**
 
