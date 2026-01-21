@@ -23,16 +23,10 @@ Explore my projects to see my skills in action. I welcome feedback, collaboratio
 
 
 
-## ⚠️ Vulnerability Management Projects
+## ⚠️ Agentic Ai
 
-- **[Vulnerability Management Program Implementation](https://github.com/gonsalvesray/vulnerability-mgt-project)**
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
+- **[Defending and Agentic AI Agent](https://github.com/raymondgonsalves/Defending_Agentic_AI)**
 
-## 🚨 Threat Hunting and Security Operations
-
-- **[Threat Hunting Scenario (Tor browser Usage)](https://github.com/gonsalvesray/threat-hunting-scenario-tor)**
-
--  **[DDos Attack Scenario - NIST 800-61 Incident Report](https://github.com/gonsalvesray/GCC_IncidentReport)**
 
 <hr/>
 
