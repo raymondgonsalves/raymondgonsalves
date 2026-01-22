@@ -1,25 +1,26 @@
+# Defending Agentic AI
 
-# <a href="https://www.linkedin.com/in/raymond-gonsalves">Ray Gonsalves</a> Source Code Project Repository 🗂️
+![Status](https://img.shields.io/badge/status-active%20development-blue)
+![Focus](https://img.shields.io/badge/focus-SOC%20Blue%20Team-informational)
+![AI](https://img.shields.io/badge/AI-Defensive%20Use%20Only-success)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Hello, and thank you for visiting my GitHub portfolio! Here, you'll find a collection of projects that showcase my expertise in cybersecurity, particularly in blue team operations.
+💻 **Source Code + Documentation (this repository):**  
+👉 https://github.com/raymondgonsalves/Defending_Agentic_AI
 
-MY work sits squarely at the intersection of SOC operations, security architecture, and AI security — and it reflects where many security roles are headed as AI becomes embedded in production workflows.
+> ⚠️ **Demo Mode Enabled**  
+> This repository supports safe, offline execution without cloud credentials or API keys, while preserving investigation logic, guardrails, validation steps, and deterministic isolation decision workflows.
 
-## 🤖 Agentic Ai
+<br>
 
-- **[Defending Agentic AI Agent](https://github.com/raymondgonsalves/Defending_Agentic_AI)**
+📘 **Extended Cybersecurity Portfolio (Threat Hunting, Incident Response, Vulnerability Management):**  
+👉 [Ray Gonsalves Cyber Security Portfolio](https://modern-character-425.notion.site/Ray-Gonsalves-2394b1f7c9ba8043a797f55386422214)
 
+---
 
-<hr/>
+Welcome to my GitHub portfolio. I use GitHub primarily as a **repository for source code and technical documentation**, focused on hands-on blue team and SOC analyst workflows. The work here emphasizes practical implementation, defensive engineering, and repeatable analysis rather than high-level conceptual overviews.
 
-## 🤳 Connect With Me
+My projects sit at the intersection of **SOC operations, security architecture, and AI security**, reflecting how modern detection, investigation, and response workflows are evolving as AI becomes embedded in production environments. Rather than treating AI as a black box, this work highlights guardrails, deterministic decision logic, and analyst-controlled automation—capabilities increasingly expected of SOC L2 and L3 practitioners.
 
+Additional cybersecurity work is documented on my **Notion portfolio** (linked above), which serves as a companion space for **threat hunting investigations, incident response reports, vulnerability management projects, and technical artifacts**. This includes structured materials such as **Cyber Kill Chain infographics, lateral movement investigation templates, and analyst-focused workflow guides**, which complement the source code hosted in this repository.
 
-[<img align="left" alt="___________ | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-
-[linkedin]: https://www.linkedin.com/in/raymond-gonsalves/
-
-<!--
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
--->
