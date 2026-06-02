@@ -19,9 +19,24 @@ My work sits at the intersection of **SOC operations, security architecture, and
 
 ---
 
-## 🚩 Featured Project — Tool Shadowing Detection (MCP-Connected AI Agents)
+## 🧩 The Agentic AI Security Arc
 
-A blue-team project that detects when a malicious or duplicate MCP tool definition shadows or impersonates a trusted tool exposed to an AI agent — surfacing tool-poisoning attempts before the agent acts on them.
+A four-project arc tracing the full lifecycle of agentic AI security — **using** these systems in SOC workflows, **defending** them, **analyzing** novel attacks against them, and **detecting** those attacks in operational telemetry. Each phase uses the artifact format that fits its work.
+
+| Phase | Project | Format | What it covers |
+| --- | --- | --- | --- |
+| **1 · Use** | [Mastering SOC Agentic AI](https://modern-character-425.notion.site/Ray-Gonsalves-2394b1f7c9ba8043a797f55386422214) | Video | Using agentic AI in production SOC analyst workflows |
+| **2 · Defend** | [Defending Agentic AI](https://github.com/raymondgonsalves/Defending_Agentic_AI) | Video + Code | Policy-gated SOC triage with human-in-the-loop approval gates |
+| **3 · Analyze** | [Tool Shadowing Threat Model](https://modern-character-425.notion.site/Tool-Shadowing-Attack-MCP-Connected-AI-Agent-3584b1f7c9ba804483d1e1aa5fb148f6) | Written report | Threat model of the Tool Shadowing attack class against MCP-connected agents |
+| **4 · Detect** 🚩 | [MCP Tool Shadowing Detection Pack](https://github.com/raymondgonsalves/mcp-tool-shadowing-detections) | Code + Video | Four Microsoft Sentinel KQL rules detecting the attack, verified on captured lab data |
+
+> The arc shows the full lifecycle end to end: how to **use** these systems, how to **defend** them, how to **analyze** new attacks against them, and how to **detect** those attacks in operational telemetry.
+
+---
+
+## 🚩 Featured Deep-Dive — MCP Tool Shadowing Detection Pack (the *Detect* phase)
+
+A four-rule **Microsoft Sentinel** (KQL) detection pack for **Tool Shadowing** — a prompt-injection attack where a malicious MCP server poisons its tool description to silently hijack a trusted, high-privilege tool inside an AI agent's shared LLM context. The rules run on protocol logs the MCP host already generates (no new endpoint sensors required) and are verified against captured lab attack data, with defense-in-depth coverage across the description-ingestion and tool-execution layers.
 
 👉 **Source Code + Documentation:** https://github.com/raymondgonsalves/mcp-tool-shadowing-detections
 
@@ -30,23 +45,16 @@ A blue-team project that detects when a malicious or duplicate MCP tool definiti
 ![AI](https://img.shields.io/badge/AI-Defensive%20Use%20Only-success)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-> ⚠️ **Demo Mode Enabled** — runs safely offline without cloud credentials or API keys, while preserving the tool-validation and detection logic.
+**Stack:** Microsoft Sentinel · KQL · Python ingestion pipeline · Azure (Entra ID · Logs Ingestion API)  
+**Aligned to:** Microsoft SC-200 · OWASP Agentic Top 10 · MITRE ATT&CK · MITRE ATLAS
+
+> 🛡️ The detection rules are read-only and production-safe — they emit alerts without taking active response actions.
 
 ---
 
-## 📂 More Projects
+## 📘 Beyond the Arc — Broader Blue-Team Portfolio
 
-| Project | What it does | Focus |
-| --- | --- | --- |
-| **[Defending Agentic AI](https://github.com/raymondgonsalves/Defending_Agentic_AI)** | Investigates, contains, and governs agentic AI behavior using guardrails, validation steps, and deterministic isolation decision workflows | Guardrails · Isolation · AI Security |
-
-<!-- Add new projects as a single row above. Promote your strongest work into the Featured Project section and move it out of this table. -->
-
----
-
-## 📘 Extended Cybersecurity Portfolio
-
-My **Notion portfolio** is the companion space for **threat hunting investigations, incident response reports, vulnerability management projects, and technical artifacts** — including **Cyber Kill Chain infographics, lateral movement investigation templates, and analyst-focused workflow guides** that complement the source code hosted here.
+Outside the agentic AI arc, my **Notion portfolio** documents core SOC work — **threat hunting investigations, incident response reports, vulnerability management projects, and technical artifacts**, including **Cyber Kill Chain infographics, lateral movement investigation templates, and analyst-focused workflow guides**.
 
 👉 [Ray Gonsalves — Cyber Security Portfolio](https://modern-character-425.notion.site/Ray-Gonsalves-2394b1f7c9ba8043a797f55386422214)
 
