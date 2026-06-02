@@ -25,7 +25,7 @@ A four-project arc tracing the full lifecycle of agentic AI security — **using
 
 | Phase | Project | Format | What it covers |
 | --- | --- | --- | --- |
-| **1 · Use** | [Mastering SOC Agentic AI](https://modern-character-425.notion.site/Ray-Gonsalves-2394b1f7c9ba8043a797f55386422214) | Video | Using agentic AI in production SOC analyst workflows |
+| **1 · Use** | [Mastering SOC Agentic AI](https://www.notion.so/Mastering-SOC-Agentic-AI-2624b1f7c9ba80cb9d78ef08f31eb6cb) | Video | Using agentic AI in production SOC analyst workflows |
 | **2 · Defend** | [Defending Agentic AI](https://github.com/raymondgonsalves/Defending_Agentic_AI) | Video + Code | Policy-gated SOC triage with human-in-the-loop approval gates |
 | **3 · Analyze** | [Tool Shadowing Threat Model](https://modern-character-425.notion.site/Tool-Shadowing-Attack-MCP-Connected-AI-Agent-3584b1f7c9ba804483d1e1aa5fb148f6) | Written report | Threat model of the Tool Shadowing attack class against MCP-connected agents |
 | **4 · Detect** 🚩 | [MCP Tool Shadowing Detection Pack](https://github.com/raymondgonsalves/mcp-tool-shadowing-detections) | Code + Video | Four Microsoft Sentinel KQL rules detecting the attack, verified on captured lab data |
