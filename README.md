@@ -9,6 +9,8 @@
 ![AI](https://img.shields.io/badge/AI-Defensive%20Use%20Only-success)
 ![Portfolio](https://img.shields.io/badge/portfolio-Threat%20Hunting%20%C2%B7%20IR%20%C2%B7%20Vuln%20Mgmt-lightgrey)
 
+📘 **Full investigation write-ups & reports live on Notion:** [Ray Gonsalves — Cybersecurity Portfolio →](https://modern-character-425.notion.site/Ray-Gonsalves-2394b1f7c9ba8043a797f55386422214)
+
 > Defensive security engineering across SOC operations, threat hunting, incident response, vulnerability management, and the emerging work of securing **agentic AI** systems.
 
 ---
